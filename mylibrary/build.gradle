@@ -38,15 +38,15 @@ dependencies {
     implementation 'com.google.code.gson:gson:2.8.8'    // JSON parsing library
 }
 
-//afterEvaluate {
-//    publishing {
-//        publications {
-//            release(MavenPublication) {
-//                from components.release
-//                groupId = 'com.github.avibaazov'
-//                artifactId = 'mylibrary'
-//                version = '1.0.0'
-//            }
-//        }
-//    }
-//}
+afterEvaluate {
+    publishing {
+        publications {
+            release(MavenPublication) {
+                from components.release
+                groupId = 'com.github.avibaazov'
+                artifactId = 'mylibrary'
+                version = '1.0.0'
+            }
+        }
+    }
+}
