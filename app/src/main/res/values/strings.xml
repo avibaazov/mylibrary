@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">JokesAppAndroid</string>
+    <string-array name="spinner_options">
+        <item>food</item>
+        <item>programming</item>
+        <item>chicken</item>
+        <item>random</item>
+    </string-array>
+</resources>
